@@ -54,12 +54,12 @@ A.sendsms() # Will send an OTP to your phone which needed to be entered to other
 ### Using ADB
 
 ```python
-from Alhosn import * # Importing Alhosn class
+from Alhosn import * 
 
-A = Alhosn() # To make it easier for ourselves, define Alhosn and use it anywhere.
+A = Alhosn() 
 
-A.phone = "Phone number, starts with +***" # Defining a phone number, you can do it here or from Alhosn class directly.
-A.eid = "eid number without Hyphens" # Defining an eid number, you can do it here or from Alhosn class directly.
+A.phone = "Phone number, starts with +***" 
+A.eid = "eid number without Hyphens" 
 
 phone, eid = A.phone, A.eid # Creating variables to access any attributes from Alhosn class for later use.
 A.sendsms(adb=True, delay=5) # It's recommended to use a delay between 3-5 seconds
@@ -67,3 +67,37 @@ A.sendsms(adb=True, delay=5) # It's recommended to use a delay between 3-5 secon
 
  ```
 
+### Optimal use and recieving results
+
+```python
+from Alhosn import *
+
+A = Alhosn()
+
+A.phone = "Phone number, starts with +***"
+A.eid = "eid number without Hyphens"
+
+
+phone, eid = A.phone, A.eid
+A.sendsms(adb=True, delay=5)
+
+A.login(otp=A.otp)  # The login method will take the otp code and the rest of info given
+                    # Previously and will generate a Token, for future use.
+
+                    
+A.result(display=True,
+   save_photo="name")    # The main method, used to recieve the results of the user
+                         # which in return can be saved as a variable to parse it
+                         # you can also save the photo of the person and specify
+                         # the name, also the ability to view it in console.
+
+results = A.results # Saving the results in a variable
+
+A.pdfout(pdftype="test",
+   name="test-pdf")     # Save either the user test or vaccination vaccine
+                        # You can also specify the name or leave it, and
+                        # it will be called as the type
+
+
+
+```
