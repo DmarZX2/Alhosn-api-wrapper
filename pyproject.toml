@@ -1,0 +1,13 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "certifi==2022.5.18.1",
+    "charset-normalizer==2.0.12",
+    "colorama==0.4.4",
+    "colorlog==6.6.0",
+    "fake-useragent==0.1.11",
+    "idna==3.3",
+    "phonenumbers==8.12.49",
+    "requests==2.27.1",
+    "urllib3==1.26.9"]
+build-backend = "setuptools.build_meta"
