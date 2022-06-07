@@ -47,8 +47,10 @@ A.sendsms() # Will send an OTP to your phone which needed to be entered to other
 1) Downloading the files from [This link](https://dl.google.com/android/repository/platform-tools-latest-windows.zip)
 2) Extract the files to a folder called "adb" where your script are,
    or using environment variables.
-3) Connect your phone to your pc, and enable usb debugging
-4) When calling sendsms() method, make adb True
+3) You can put all the files in the adb folder or just
+   "adb.exe" and "AdbWinApi.dll" are enough
+4) Connect your phone to your pc, and enable usb debugging
+5) When calling sendsms() method, make adb True
 
 
 ### Using ADB
