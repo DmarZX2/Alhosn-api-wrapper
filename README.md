@@ -26,7 +26,7 @@ The second way is using git:
     
 ## Quickstart
 
-    
+    hello
 ```python
 import Alhosn
 ```
