@@ -28,8 +28,6 @@ The second way is using git:
 
 ### Start
 ```python
-from Alhosn import *
-
 from Alhosn import * # Importing Alhosn class
 
 A = Alhosn() # To make it easier for ourselves, define Alhosn and use it anywhere.
