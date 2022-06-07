@@ -41,17 +41,17 @@ A.sendsms() # Will send an OTP to your phone which needed to be entered to other
 ```
 
 ### Activating ADB
-```
-If you have an android device and want to automate the procedure
-of inserting your otp, you can activate the ADB module, using the
-Following steps:
+
+    If you have an android device and want to automate the procedure
+    of inserting your otp, you can activate the ADB module, using the
+    Following steps:
 
 1) Downloading the files from [This link](https://dl.google.com/android/repository/platform-tools-latest-windows.zip)
 2) Extract the files to a folder called "adb" where your script are,
    or using environment variables.
-3) Connect your phone to your pc, and enavle usb debugging
+3) Connect your phone to your pc, and enable usb debugging
 4) When calling sendsms() method, make adb True
-```
+
 
 ### Using ADB
 
