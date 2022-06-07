@@ -1,5 +1,7 @@
 # Alhosn-api-wrapper :cowboy_hat_face:	
-A simple and easy to use wrapper which is able to access user information using user credentials.  
+A simple and easy to use wrapper which is able to access user information on Alhosn API using user credentials
+
+Written in Python 
 
 **_[:warning:	It is prohibited to use this wrapper for malicious intent in any shape or form.:warning:	]_**
 
