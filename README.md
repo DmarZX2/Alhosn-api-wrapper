@@ -66,7 +66,7 @@ from Alhosn import *
 A = Alhosn() 
 
 A.phone = "Phone number, starts with +***" 
-A.eid = "eid number without Hyphens" 
+A.eid   = "eid number without Hyphens" 
 
 phone, eid = A.phone, A.eid  # Creating variables to access any attributes from Alhosn class for later use.
 A.sendsms(adb=True, delay=5) # It's recommended to use a delay between 3-5 seconds
