@@ -6,6 +6,9 @@ Written in Python
 **_[:warning:	It is prohibited to use this wrapper for malicious intent in any shape or form.:warning:	]_**
 
 
+**_[:no_entry:		This Application / code is provided without any warranty by me, the creator, Hamad Alafeefi. I, the creator isn't responsible for any fork / edited version of this app / code.:no_entry:		]_**
+
+
 Installation
 ------------
 
