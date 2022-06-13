@@ -98,7 +98,7 @@ A.result(display=True,
 results = A.results # Saving the results in a variable
 
 A.pdfout(pdftype="test",
-   name="test-pdf")     # Save either the user test or vaccination vaccine
+   name="test-pdf")     # Save either the user test or vaccination form
                         # You can also specify the name or leave it, and
                         # it will be called as the type
 
