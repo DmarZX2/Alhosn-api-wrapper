@@ -38,7 +38,7 @@ from Alhosn import * # Importing Alhosn class
 A = Alhosn() # To make it easier for ourselves, define Alhosn and use it anywhere.
 
 A.phone = "Phone number, starts with +***" # Defining a phone number, you can do it here or from Alhosn class directly.
-A.eid = "eid number without Hyphens" # Defining an eid number, you can do it here or from Alhosn class directly.
+A.eid   = "eid number without Hyphens"     # Defining an eid number, you can do it here or from Alhosn class directly.
 
 A.sendsms() # Will send an OTP to your phone which needed to be entered to other methods
 ```
@@ -68,7 +68,7 @@ A = Alhosn()
 A.phone = "Phone number, starts with +***" 
 A.eid = "eid number without Hyphens" 
 
-phone, eid = A.phone, A.eid # Creating variables to access any attributes from Alhosn class for later use.
+phone, eid = A.phone, A.eid  # Creating variables to access any attributes from Alhosn class for later use.
 A.sendsms(adb=True, delay=5) # It's recommended to use a delay between 3-5 seconds
                              # Because recieving sms's messages takes some time
 
