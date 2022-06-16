@@ -5,6 +5,7 @@ A simple and easy to use wrapper which is able to access user information on Alh
 
 Written in Python 
 
+# Disclaimers
 **_[:warning:	It is prohibited to use this wrapper for malicious intent in any shape or form.:warning:	]_**
 
 
